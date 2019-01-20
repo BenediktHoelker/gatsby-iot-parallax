@@ -9,7 +9,7 @@
 
 .listItem {
   list-style-type: none;
-  padding-inline-start: 14px;
+  padding-inline-start: 1rem;
 }
 
 .link {
