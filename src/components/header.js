@@ -9,11 +9,11 @@ const Header = ({ siteTitle, menuLinks }) => (
       {menuLinks.map(link => {
         return (
           <li key={link.name} className={styles.listItem}>
-            <h1>
+            <h3 style={{marginTop: '1rem'}}>
               <Link className={styles.link} to={link.link}>
                 {link.name}
               </Link>
-            </h1>
+            </h3>
           </li>
         )
       })}

@@ -20,7 +20,8 @@
     "react-helmet": "^5.2.0",
     "react-typography": "^0.16.18",
     "typography": "^0.16.18",
-    "typography-theme-grand-view": "^0.16.18"
+    "typography-theme-grand-view": "^0.16.18",
+    "typography-theme-wordpress-2016": "^0.16.18"
   },
   "keywords": [
     "gatsby"
