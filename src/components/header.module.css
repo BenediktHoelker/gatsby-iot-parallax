@@ -2,6 +2,10 @@
   background: cornflowerblue;
 }
 
+.logo {
+  width: 100
+}
+
 .navigation {
   display: flex;
   flex: 1;

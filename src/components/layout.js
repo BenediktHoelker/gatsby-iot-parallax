@@ -12,6 +12,7 @@ const Layout = ({ children }) => (
         site {
           siteMetadata {
             title
+            icon
             menuLinks {
               name
               link
