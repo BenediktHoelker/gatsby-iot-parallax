@@ -1,8 +1,5 @@
 .header {
   background: cornflowerblue;
-  margin-bottom: 1rem;
-  margin: 0 auto;
-  max-width: 960px;
 }
 
 .navigation {
@@ -12,11 +9,9 @@
 
 .listItem {
   list-style-type: none;
-  padding: 14px 16px;
-  text-align: center;
+  padding-inline-start: 14px;
 }
 
 .link {
   color: white;
-  text-decoration: none;
 }
