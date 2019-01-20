@@ -22,20 +22,18 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <>
+      <div className={styles.site}>
         <Header
           menuLinks={data.site.siteMetadata.menuLinks}
           siteTitle={data.site.siteMetadata.title}
         />
-        <div className={styles.mainContent}>
-          {children}
-          <footer>
-            © {new Date().getFullYear()}, Built with
-            {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
-          </footer>
-        </div>
-      </>
+        <div className={styles.mainContent}>{children}</div>
+        <footer className={styles.footer}>
+          © {new Date().getFullYear()}, Built with
+          {` `}
+          <a href="https://www.gatsbyjs.org">Gatsby</a>
+        </footer>
+      </div>
     )}
   />
 )
