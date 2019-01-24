@@ -26,7 +26,7 @@ module.exports = {
     `gatsby-plugin-sharp`, {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
+        name: `gatsby-iot-parallax`,
         short_name: `starter`,
         start_url: `/`,
         background_color: `#663399`,
